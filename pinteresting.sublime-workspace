@@ -8,9 +8,29 @@
 	"buffers":
 	[
 		{
+			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1673,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<nav class=\"navbar navbar-static-top navbar-default\">\n	<div class=\"container\">\n\n		<div class=\"navbar-header\">\n			<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n				<span class=\"sr-only\">Toggle navigation</span>\n				<span class=\"icon-bar\"></span>\n				<span class=\"icon-bar\"></span>\n				<span class=\"icon-bar\"></span>\n			</button>\n			<%= link_to \"Pinteresting\", root_path, class:\"navbar-brand\" %>\n		</div>\n\n		<div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n\n		<ul class=\"nav navbar-nav navbar-right\">\n			<li><%= link_to \"Home\", root_path %></li>\n			<li><%= link_to \"About\", about_path %></li>\n			<% if user_signed_in? %>\n				<li><%= link_to \"Log Out\", destroy_user_session_path, method: :delete %></li>\n			<% else %>\n				<%= link_to \"Log in\", new_user_session_path, class: \"btn btn-default btn-lg\" %>\n			<% end %>\n		</ul>\n\n		</div><!-- /.navbar-collapse -->\n\n	</div><!-- /.container-fluid -->\n</nav>",
+			"file": "app/views/layouts/_header.html.erb",
+			"file_size": 899,
+			"file_write_time": 130680601990000000,
+			"settings":
+			{
+				"buffer_size": 997,
 				"line_ending": "Unix"
 			}
 		}
@@ -21,6 +41,10 @@
 		"height": 368.0,
 		"selected_items":
 		[
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
 			[
 				"packa",
 				"Package Control: Install Package"
@@ -51,9 +75,34 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/yankeyhotel1/Sites_rails/pinteresting",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/views",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/views/layouts",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/views/pages",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/config",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/db/migrate"
 	],
 	"file_history":
 	[
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/views/layouts/application.html.erb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/views/layouts/_header.html.erb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/models/user.rb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/config/routes.rb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/db/migrate/20150210162019_devise_create_users.rb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/db/development.sqlite3",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/config/application.rb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/Gemfile",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/config/environments/development.rb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/config/environments/production.rb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/assets/stylesheets/bootstrap_and_customization.css.scss",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/views/pages/home.html.erb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/assets/javascripts/application.js",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/assets/stylesheets/application.css",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/controllers/pages_controller.rb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/app/views/pages/about.html.erb",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/README.md",
+		"/Users/yankeyhotel1/Sites_rails/pinteresting/.gitignore",
 		"/Users/yankeyhotel1/Sites/FootCardigan_Shopify/foot-cardigan-8573208/layout/theme.liquid",
 		"/Users/yankeyhotel1/Sites/FootCardigan_Shopify/foot-cardigan-8573208/templates/product.gma-day-after.liquid",
 		"/Users/yankeyhotel1/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
@@ -91,28 +140,88 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "config/routes.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								52,
+								52
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/pages/home.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/_header.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								898,
+								819
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -130,7 +239,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 52.0
 	},
 	"layout":
 	{
@@ -180,7 +289,7 @@
 		[
 			[
 				"",
-				"~/Sites/FootCardigan_v5b/fc-v5b.sublime-project"
+				"~/Sites/FootCardigan_Shopify/foot-cardigan-shopify.sublime-project"
 			]
 		],
 		"width": 380.0

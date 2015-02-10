@@ -76,4 +76,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Required for Devise
+  # Note set to actual host
+  config.action_mailer.default_url_options = { host: 'enigmatic-sands-2267.herokuapp.com' }
 end
