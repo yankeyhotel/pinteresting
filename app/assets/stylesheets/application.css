@@ -14,9 +14,3 @@
  *= require 'masonry/transitions'
  *= require_tree .
  */
-
-
-.panel-heading h1 {
-	font-weight: bold;
-	margin: 10px 0;
-}
